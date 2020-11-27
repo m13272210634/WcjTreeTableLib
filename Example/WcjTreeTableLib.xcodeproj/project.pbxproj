@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7A389A7D2570E1B50068787C /* cityResource.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A389A7C2570E1B40068787C /* cityResource.json */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BD3384469CB72BC2324BDB2B /* Pods_WcjTreeTableLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD787E79EA4DC8FB759877D7 /* Pods_WcjTreeTableLib_Tests.framework */; };
 		C2ABE902979DEACA9B702419 /* Pods_WcjTreeTableLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6328EE707DD20E25FAD6253 /* Pods_WcjTreeTableLib_Example.framework */; };
@@ -57,14 +58,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D26090384D1E2083A19F056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A389A7C2570E1B40068787C /* cityResource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityResource.json; sourceTree = "<group>"; };
+		7D26090384D1E2083A19F056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		893EC1415C4E74B1F72F0B45 /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WcjTreeTableLib.podspec; path = ../WcjTreeTableLib.podspec; sourceTree = "<group>"; };
+		893EC1415C4E74B1F72F0B45 /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WcjTreeTableLib.podspec; path = ../WcjTreeTableLib.podspec; sourceTree = "<group>"; };
 		A1AC77C0271CF7FF65191E2B /* Pods-WcjTreeTableLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Example.release.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5E8CE51F2B84C020914CDD4 /* Pods-WcjTreeTableLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Tests/Pods-WcjTreeTableLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B6328EE707DD20E25FAD6253 /* Pods_WcjTreeTableLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjTreeTableLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C361C155CACBB085CFDF17A5 /* Pods-WcjTreeTableLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Tests/Pods-WcjTreeTableLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE6B9D00BDD5E10CEB40BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CE6B9D00BDD5E10CEB40BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DADD02BE86A217473A0B0F7A /* Pods-WcjTreeTableLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DD787E79EA4DC8FB759877D7 /* Pods_WcjTreeTableLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjTreeTableLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +105,6 @@
 				C361C155CACBB085CFDF17A5 /* Pods-WcjTreeTableLib_Tests.debug.xcconfig */,
 				B5E8CE51F2B84C020914CDD4 /* Pods-WcjTreeTableLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,7 @@
 				6003F5A5195388D20070C39A /* WCJViewController.h */,
 				6003F5A6195388D20070C39A /* WCJViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				7A389A7C2570E1B40068787C /* cityResource.json */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -208,6 +210,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				FD92DE8E213948659CDC8567 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +285,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				7A389A7D2570E1B50068787C /* cityResource.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +360,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Tests/Pods-WcjTreeTableLib_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD92DE8E213948659CDC8567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WcjTreeTableLib/WcjTreeTableLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WcjTreeTableLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,0 +1,6 @@
+framework module WcjTreeTableLib {
+  umbrella header "WcjTreeTableLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

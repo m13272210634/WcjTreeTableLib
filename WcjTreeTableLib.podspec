@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WcjTreeTableLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WcjTreeTableLib' => ['WcjTreeTableLib/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'WcjTreeTableLib' => ['WcjTreeTableLib/Classes/*.bundle']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
