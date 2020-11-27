@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WcjTreeTableLib/Classes/**/*",
-  "resource_bundles": {
-    "WcjTreeTableLib": [
-      "WcjTreeTableLib/Classes/*.bundle"
-    ]
-  }
+  "source_files": "WcjTreeTableLib/Classes/**/*"
 }
