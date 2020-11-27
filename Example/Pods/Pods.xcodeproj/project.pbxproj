@@ -8,144 +8,146 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03DBC3C7348E42AFE1282C19ABD936B0 /* WcjTableTreeConfige.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FC20FDFCE322F98EA4F9920C013010 /* WcjTableTreeConfige.m */; };
-		0943EA5179B72BB623234B6BF495DB5A /* WcjTableTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63926BC307C8C20235078529F31ADB08 /* WcjTableTreeView.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E81515E06C8E27F4C193F5536459E3A /* WcjTreeTableLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7DBFA904C8CE5B0A56BE692BC61037 /* WcjTreeTableLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E95B60D8A1A85D17B3F3D512C1B58A5 /* WcjTableTreeConfige.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FF6910005A39CAF232B13989BACEA0 /* WcjTableTreeConfige.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3357892F85D3A2FDA102EDDC64980C40 /* WcjTableTreeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55002DD25E3E5C9AFBCA4698723DD16C /* WcjTableTreeManager.m */; };
+		35323BD19C0065EFD53CCBFAD642FAE3 /* WcjTableTreeCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9592AC5C6FF98324B6FC209801145A /* WcjTableTreeCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		51337FABB96FD38C3FB3041F3700C129 /* WcjTreeTableLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232934D2286A86B506C4D281B71B0F8 /* WcjTreeTableLib-dummy.m */; };
+		51EDA9A4862E2370CFDC9E161DD1E70D /* WcjTableTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93B4C82114AC4BF1D5418C0AE09B07 /* WcjTableTreeCell.m */; };
 		57553E98D60EAF6FD17613EC0BA1F47B /* Pods-WcjTreeTableLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9DAD260389FDA4482AA73B9ABE787 /* Pods-WcjTreeTableLib_Example-dummy.m */; };
 		575EFF77B3E326E624D6C6CD594D7215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		679BC93352BC5669586D391CDE566654 /* WcjTableTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C304DB8D7F0E2A1BFC0E064FD0EE94C /* WcjTableTreeItem.m */; };
+		5C16EA3C71322D416B71482FA6D8337D /* treeTable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A74DC40238E14EB9B9734F2E7C3A1A69 /* treeTable.bundle */; };
+		66E28E0228B3E0FC95A8E637965A8082 /* WcjTableTreeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A2AAC0513152AEDB912D3F3507CA9A /* WcjTableTreeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A05138EC2C9A71C9E0A242918146681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		744281C9C1D4F3F7A7CE78512865703F /* WcjTableTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A75CD948D8EB024323038E2A963806E /* WcjTableTreeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DDA8B455AF63B4A09AAF1E437E9E0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		816D189A80AB12806119AF62790851CE /* WcjTableTreeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A441A0F88DB6A30D1512C6569BAA0 /* WcjTableTreeManager.m */; };
+		7D9783BA3006DF4A228EB077784F47D6 /* WcjTreeTableLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86579AA6925119E74F04B70DDB1578C0 /* WcjTreeTableLib-dummy.m */; };
+		7E401420DC3CC76CB06632C2F320355B /* WcjTableTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A80D81FC7CF5082BEB7D6B6F5BF59D /* WcjTableTreeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8B8B9CF72A8C49A154ABA18698408B55 /* WcjTableTreeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 870006A49747F8E06C4E105EA3D695A7 /* WcjTableTreeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A54DED75A40297B41D3CFAF86C38A2C /* WcjTableTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDB458A5CC7695F2750634DF14832A /* WcjTableTreeView.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91FB11A7EC9EE5BEB0D89AF80D7FFACD /* WcjTableTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A88A23D676BEDA5851E8C378306E21 /* WcjTableTreeCell.m */; };
+		911DE16F57AAF2097B89DC756488CF53 /* WcjTreeTableLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9E754750BA44E028069E3072E2F00B /* WcjTreeTableLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99DB4D20827D8E1EFAB57CCB012450E7 /* Pods-WcjTreeTableLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C3278F8278920107CCEBFB0B7E2D28 /* Pods-WcjTreeTableLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A75A4084AEDDD251C2448F218A3D769C /* WcjTableTreeItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BDA5CF7EA3B635509F37E8BA6A8C15 /* WcjTableTreeItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1DAB66050EDB38B0313582BDD4B107 /* WcjTableTreeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C5E1E1FC045C8B228E9CCE7937EFBF /* WcjTableTreeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59F9D19D7B2FA092F25DB2EE77C8C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		A998E4CB2CF09AB243D1F421178A26A1 /* WcjTableTreeConfige.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9199B1AE05597F0885541335C254D /* WcjTableTreeConfige.m */; };
+		AC94582C8ADAF1CC815BFE2A20B5AE05 /* WcjTableTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 479911642D987922EB92366319AD984D /* WcjTableTreeItem.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B8A0E5A7AF4E6028416409C2C97FA198 /* Pods-WcjTreeTableLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33867D39CCE7AE6CB5150F6F1168F2A9 /* Pods-WcjTreeTableLib_Tests-dummy.m */; };
-		C0EE0410591F104463B3CD73976D6BCE /* WcjTableTreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBC94147CCC081F558E06CE1BF42D24 /* WcjTableTreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE353DDFBCE3DE81B3D62A23F5EB9A29 /* WcjTableTreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD84FD35F85C0744C24613143F872213 /* WcjTableTreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C302BB7C39236CDFF65E11A52AFDD254 /* WcjTableTreeItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C068537E230D58AA3B54FC0B54BF324D /* WcjTableTreeItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC5E97BA329C7B026D9AC817C41127CC /* WcjTableTreeConfige.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DAF245DFB080AC5990B15442A23330 /* WcjTableTreeConfige.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E58D582A3083D3D831C2B9A3AFF2DA29 /* WcjTableTreeCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAE63FA0866D015A4BCB2CA8B775EC5 /* WcjTableTreeCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E5A927752B87BAEB3CD14E304BF817 /* Pods-WcjTreeTableLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD32FF535B80D4E4B0EDF549DE92326D /* Pods-WcjTreeTableLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F900B55426B1A54684E231552C11C32E /* WcjTableTreeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 73645D7622183F2074AB94B312D27037 /* WcjTableTreeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B5A14C60284448F29E4B43796D15597 /* PBXContainerItemProxy */ = {
+		1FED9F746A90B3231A8C1402C16A7D90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5363DAC83E4D2F2423B2D6A5350704D3;
 			remoteInfo = WcjTreeTableLib;
 		};
-		D4CE9984C15EF207D9EFE6DC53B6ABE3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		F5B81FB38397104F3E55AB5041BBF94C /* PBXContainerItemProxy */ = {
+		6147EFBCD4ED42E1B38F6D0BACACBE56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A24D8D7D570296312F189855F6259B77;
 			remoteInfo = "Pods-WcjTreeTableLib_Example";
 		};
+		9725065EED92584722F5C50273FBB2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C304DB8D7F0E2A1BFC0E064FD0EE94C /* WcjTableTreeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeItem.m; path = WcjTreeTableLib/Classes/WcjTableTreeItem.m; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		18873193B2502ED8B911A3AD3AE5C36C /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WcjTreeTableLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1FC78B8ABEE6C44B8CFE39C0BF0DDE46 /* WcjTreeTableLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjTreeTableLib.debug.xcconfig; sourceTree = "<group>"; };
+		1B9E754750BA44E028069E3072E2F00B /* WcjTreeTableLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjTreeTableLib-umbrella.h"; sourceTree = "<group>"; };
+		1C8036D5AB3A919359D3F0620452491E /* WcjTreeTableLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjTreeTableLib-prefix.pch"; sourceTree = "<group>"; };
+		1CBDB458A5CC7695F2750634DF14832A /* WcjTableTreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeView.m; path = WcjTreeTableLib/Classes/WcjTableTreeView.m; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		29BDA5CF7EA3B635509F37E8BA6A8C15 /* WcjTableTreeItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeItemProtocol.h; path = WcjTreeTableLib/Classes/WcjTableTreeItemProtocol.h; sourceTree = "<group>"; };
 		2FBBC501D6304624833F9B2BDA58F026 /* Pods_WcjTreeTableLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WcjTreeTableLib_Example.framework; path = "Pods-WcjTreeTableLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33867D39CCE7AE6CB5150F6F1168F2A9 /* Pods-WcjTreeTableLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WcjTreeTableLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E9592AC5C6FF98324B6FC209801145A /* WcjTableTreeCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeCellProtocol.h; path = WcjTreeTableLib/Classes/WcjTableTreeCellProtocol.h; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4C0FFAC4036F062BF1B12F169C9EB77B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		479911642D987922EB92366319AD984D /* WcjTableTreeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeItem.m; path = WcjTreeTableLib/Classes/WcjTableTreeItem.m; sourceTree = "<group>"; };
+		47CF9112334612410A9756A8F19912D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48DAF245DFB080AC5990B15442A23330 /* WcjTableTreeConfige.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeConfige.h; path = WcjTreeTableLib/Classes/WcjTableTreeConfige.h; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		501A441A0F88DB6A30D1512C6569BAA0 /* WcjTableTreeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeManager.m; path = WcjTreeTableLib/Classes/WcjTableTreeManager.m; sourceTree = "<group>"; };
 		54C7BAA38C5568229C0C82217EC79E8E /* Pods-WcjTreeTableLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WcjTreeTableLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		55E70DC966C8DB1568A886B82C6CC91A /* WcjTreeTableLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjTreeTableLib.release.xcconfig; sourceTree = "<group>"; };
+		55002DD25E3E5C9AFBCA4698723DD16C /* WcjTableTreeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeManager.m; path = WcjTreeTableLib/Classes/WcjTableTreeManager.m; sourceTree = "<group>"; };
+		55A80D81FC7CF5082BEB7D6B6F5BF59D /* WcjTableTreeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeItem.h; path = WcjTreeTableLib/Classes/WcjTableTreeItem.h; sourceTree = "<group>"; };
 		570F3875C68161149A53BDB148C6294C /* Pods_WcjTreeTableLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WcjTreeTableLib_Tests.framework; path = "Pods-WcjTreeTableLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A67BF6C0B3856E29534D8AEACB520DA /* Pods-WcjTreeTableLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjTreeTableLib_Example-Info.plist"; sourceTree = "<group>"; };
-		5B64ED1A64D342F65C57364808047FFD /* WcjTreeTableLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjTreeTableLib-prefix.pch"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDDE2E9EF2284DA8ED1BB74CCDD5998 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6232934D2286A86B506C4D281B71B0F8 /* WcjTreeTableLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WcjTreeTableLib-dummy.m"; sourceTree = "<group>"; };
-		63926BC307C8C20235078529F31ADB08 /* WcjTableTreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeView.m; path = WcjTreeTableLib/Classes/WcjTableTreeView.m; sourceTree = "<group>"; };
+		5FD9199B1AE05597F0885541335C254D /* WcjTableTreeConfige.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeConfige.m; path = WcjTreeTableLib/Classes/WcjTableTreeConfige.m; sourceTree = "<group>"; };
 		63DA6592CE1F91A038FF89E76F5DAF13 /* WcjTreeTableLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WcjTreeTableLib.framework; path = WcjTreeTableLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6DCD793D9934AD6334FCF70A6C5294E3 /* Pods-WcjTreeTableLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjTreeTableLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		73645D7622183F2074AB94B312D27037 /* WcjTableTreeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeCell.h; path = WcjTreeTableLib/Classes/WcjTableTreeCell.h; sourceTree = "<group>"; };
 		76B9DAD260389FDA4482AA73B9ABE787 /* Pods-WcjTreeTableLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WcjTreeTableLib_Example-dummy.m"; sourceTree = "<group>"; };
-		79A88A23D676BEDA5851E8C378306E21 /* WcjTableTreeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeCell.m; path = WcjTreeTableLib/Classes/WcjTableTreeCell.m; sourceTree = "<group>"; };
+		7B086B8A964AB050FB578E197FB7E27B /* WcjTreeTableLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WcjTreeTableLib.modulemap; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7E5B4C2AE5418F43FDB94C60AFCD6913 /* Pods-WcjTreeTableLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjTreeTableLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83F840238E50A199F1AF237DD62A1A02 /* Pods-WcjTreeTableLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WcjTreeTableLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83FC20FDFCE322F98EA4F9920C013010 /* WcjTableTreeConfige.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeConfige.m; path = WcjTreeTableLib/Classes/WcjTableTreeConfige.m; sourceTree = "<group>"; };
-		86C5E1E1FC045C8B228E9CCE7937EFBF /* WcjTableTreeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeCell.h; path = WcjTreeTableLib/Classes/WcjTableTreeCell.h; sourceTree = "<group>"; };
-		870006A49747F8E06C4E105EA3D695A7 /* WcjTableTreeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeManager.h; path = WcjTreeTableLib/Classes/WcjTableTreeManager.h; sourceTree = "<group>"; };
+		86579AA6925119E74F04B70DDB1578C0 /* WcjTreeTableLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WcjTreeTableLib-dummy.m"; sourceTree = "<group>"; };
+		86A2AAC0513152AEDB912D3F3507CA9A /* WcjTableTreeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeManager.h; path = WcjTreeTableLib/Classes/WcjTableTreeManager.h; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8A93B4C82114AC4BF1D5418C0AE09B07 /* WcjTableTreeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WcjTableTreeCell.m; path = WcjTreeTableLib/Classes/WcjTableTreeCell.m; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		91C0D122E216E9DA64F60C644A76C850 /* WcjTreeTableLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjTreeTableLib.debug.xcconfig; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9A75CD948D8EB024323038E2A963806E /* WcjTableTreeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeItem.h; path = WcjTreeTableLib/Classes/WcjTableTreeItem.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAE63FA0866D015A4BCB2CA8B775EC5 /* WcjTableTreeCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeCellProtocol.h; path = WcjTreeTableLib/Classes/WcjTableTreeCellProtocol.h; sourceTree = "<group>"; };
 		A0EC5235ADE9CAEF22C9799E4D2DF66C /* Pods-WcjTreeTableLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjTreeTableLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		A4DABA158DB186E57F932A8A0E1DB2EC /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WcjTreeTableLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A74DC40238E14EB9B9734F2E7C3A1A69 /* treeTable.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = treeTable.bundle; path = WcjTreeTableLib/treeTable.bundle; sourceTree = "<group>"; };
 		AD4A6A41BBFE3EA083B9922D2D8D52BD /* Pods-WcjTreeTableLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjTreeTableLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B2A7F119A8E7E4E1048260CB712512FF /* WcjTreeTableLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WcjTreeTableLib-Info.plist"; sourceTree = "<group>"; };
+		B3958890289F3FF99761500A7A10B9A1 /* WcjTreeTableLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjTreeTableLib.release.xcconfig; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B9B705B1E9668D66167B1A90F9EBB3B9 /* Pods-WcjTreeTableLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjTreeTableLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BEA4F369BAF104C121C19FFA316D08E3 /* Pods-WcjTreeTableLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjTreeTableLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C068537E230D58AA3B54FC0B54BF324D /* WcjTableTreeItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeItemProtocol.h; path = WcjTreeTableLib/Classes/WcjTableTreeItemProtocol.h; sourceTree = "<group>"; };
 		C3C3278F8278920107CCEBFB0B7E2D28 /* Pods-WcjTreeTableLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WcjTreeTableLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CD32FF535B80D4E4B0EDF549DE92326D /* Pods-WcjTreeTableLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WcjTreeTableLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D4F094235FF5D09D36616D8812C5811B /* Pods-WcjTreeTableLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjTreeTableLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5FF6910005A39CAF232B13989BACEA0 /* WcjTableTreeConfige.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeConfige.h; path = WcjTreeTableLib/Classes/WcjTableTreeConfige.h; sourceTree = "<group>"; };
 		D6FF84ABBFAA2C5BB9C6AA81C38A4E2C /* Pods-WcjTreeTableLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WcjTreeTableLib_Example.modulemap"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DD84FD35F85C0744C24613143F872213 /* WcjTableTreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeView.h; path = WcjTreeTableLib/Classes/WcjTableTreeView.h; sourceTree = "<group>"; };
 		E175BFC3FA2E6F84FA5042BD4BA1D3AB /* Pods-WcjTreeTableLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WcjTreeTableLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2ECB9A60D448A2C0DA1F7EC2DF8BEB7 /* WcjTreeTableLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WcjTreeTableLib.modulemap; sourceTree = "<group>"; };
 		EA7F64A36B57D7D42EC51103AC7BC0FE /* Pods-WcjTreeTableLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WcjTreeTableLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F092E3A4124F2FD802092E71BBF249C4 /* WcjTreeTableLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WcjTreeTableLib-Info.plist"; sourceTree = "<group>"; };
 		F906D5C95566C77BCEE0E789EC6E31FB /* Pods-WcjTreeTableLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WcjTreeTableLib_Tests.modulemap"; sourceTree = "<group>"; };
-		F90D395A7144770C370C3089C25077FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FA7DBFA904C8CE5B0A56BE692BC61037 /* WcjTreeTableLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjTreeTableLib-umbrella.h"; sourceTree = "<group>"; };
-		FDBC94147CCC081F558E06CE1BF42D24 /* WcjTableTreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WcjTableTreeView.h; path = WcjTreeTableLib/Classes/WcjTableTreeView.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,19 +160,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3874FA7791CCAA547FEF3B3C8D9B04B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59F9D19D7B2FA092F25DB2EE77C8C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69E383E00520FA5A1B6762DE79D98E64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A05138EC2C9A71C9E0A242918146681 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ECE6B7CD84F88041A57751F82C56232 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DDA8B455AF63B4A09AAF1E437E9E0FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +199,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		38ADA0DB21A5AD99DD1CC390343C1326 /* Development Pods */ = {
+		2F656646AA7C700A3C257AA109A840F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				687DD8CC6AA2CE24F004BB5D797DBDB5 /* WcjTreeTableLib */,
+				A74DC40238E14EB9B9734F2E7C3A1A69 /* treeTable.bundle */,
 			);
-			name = "Development Pods";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		375BFCC7FF39082F786A588E820D1CDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B086B8A964AB050FB578E197FB7E27B /* WcjTreeTableLib.modulemap */,
+				86579AA6925119E74F04B70DDB1578C0 /* WcjTreeTableLib-dummy.m */,
+				F092E3A4124F2FD802092E71BBF249C4 /* WcjTreeTableLib-Info.plist */,
+				1C8036D5AB3A919359D3F0620452491E /* WcjTreeTableLib-prefix.pch */,
+				1B9E754750BA44E028069E3072E2F00B /* WcjTreeTableLib-umbrella.h */,
+				91C0D122E216E9DA64F60C644A76C850 /* WcjTreeTableLib.debug.xcconfig */,
+				B3958890289F3FF99761500A7A10B9A1 /* WcjTreeTableLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WcjTreeTableLib";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -226,28 +243,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		687DD8CC6AA2CE24F004BB5D797DBDB5 /* WcjTreeTableLib */ = {
-			isa = PBXGroup;
-			children = (
-				86C5E1E1FC045C8B228E9CCE7937EFBF /* WcjTableTreeCell.h */,
-				79A88A23D676BEDA5851E8C378306E21 /* WcjTableTreeCell.m */,
-				9DAE63FA0866D015A4BCB2CA8B775EC5 /* WcjTableTreeCellProtocol.h */,
-				D5FF6910005A39CAF232B13989BACEA0 /* WcjTableTreeConfige.h */,
-				83FC20FDFCE322F98EA4F9920C013010 /* WcjTableTreeConfige.m */,
-				9A75CD948D8EB024323038E2A963806E /* WcjTableTreeItem.h */,
-				0C304DB8D7F0E2A1BFC0E064FD0EE94C /* WcjTableTreeItem.m */,
-				29BDA5CF7EA3B635509F37E8BA6A8C15 /* WcjTableTreeItemProtocol.h */,
-				870006A49747F8E06C4E105EA3D695A7 /* WcjTableTreeManager.h */,
-				501A441A0F88DB6A30D1512C6569BAA0 /* WcjTableTreeManager.m */,
-				FDBC94147CCC081F558E06CE1BF42D24 /* WcjTableTreeView.h */,
-				63926BC307C8C20235078529F31ADB08 /* WcjTableTreeView.m */,
-				A769637D28E1246CABD25265AA430D37 /* Pod */,
-				956F6B60A1C36DADBE86E2CF10EC284D /* Support Files */,
-			);
-			name = WcjTreeTableLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +252,14 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		81393D36C30D8DB5743D9117046F7606 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD9ACA466072F47DBA9F5F63550ACF /* WcjTreeTableLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8A32AE372EDFF432C4456090A73611F9 /* Pods-WcjTreeTableLib_Example */ = {
@@ -284,29 +287,37 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		956F6B60A1C36DADBE86E2CF10EC284D /* Support Files */ = {
+		92C0DB76D96DC98A6B8DCBD0DA19B4EB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E2ECB9A60D448A2C0DA1F7EC2DF8BEB7 /* WcjTreeTableLib.modulemap */,
-				6232934D2286A86B506C4D281B71B0F8 /* WcjTreeTableLib-dummy.m */,
-				B2A7F119A8E7E4E1048260CB712512FF /* WcjTreeTableLib-Info.plist */,
-				5B64ED1A64D342F65C57364808047FFD /* WcjTreeTableLib-prefix.pch */,
-				FA7DBFA904C8CE5B0A56BE692BC61037 /* WcjTreeTableLib-umbrella.h */,
-				1FC78B8ABEE6C44B8CFE39C0BF0DDE46 /* WcjTreeTableLib.debug.xcconfig */,
-				55E70DC966C8DB1568A886B82C6CC91A /* WcjTreeTableLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WcjTreeTableLib";
-			sourceTree = "<group>";
-		};
-		A769637D28E1246CABD25265AA430D37 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F90D395A7144770C370C3089C25077FC /* LICENSE */,
-				4C0FFAC4036F062BF1B12F169C9EB77B /* README.md */,
-				A4DABA158DB186E57F932A8A0E1DB2EC /* WcjTreeTableLib.podspec */,
+				5CDDE2E9EF2284DA8ED1BB74CCDD5998 /* LICENSE */,
+				47CF9112334612410A9756A8F19912D5 /* README.md */,
+				18873193B2502ED8B911A3AD3AE5C36C /* WcjTreeTableLib.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A7DD9ACA466072F47DBA9F5F63550ACF /* WcjTreeTableLib */ = {
+			isa = PBXGroup;
+			children = (
+				73645D7622183F2074AB94B312D27037 /* WcjTableTreeCell.h */,
+				8A93B4C82114AC4BF1D5418C0AE09B07 /* WcjTableTreeCell.m */,
+				3E9592AC5C6FF98324B6FC209801145A /* WcjTableTreeCellProtocol.h */,
+				48DAF245DFB080AC5990B15442A23330 /* WcjTableTreeConfige.h */,
+				5FD9199B1AE05597F0885541335C254D /* WcjTableTreeConfige.m */,
+				55A80D81FC7CF5082BEB7D6B6F5BF59D /* WcjTableTreeItem.h */,
+				479911642D987922EB92366319AD984D /* WcjTableTreeItem.m */,
+				C068537E230D58AA3B54FC0B54BF324D /* WcjTableTreeItemProtocol.h */,
+				86A2AAC0513152AEDB912D3F3507CA9A /* WcjTableTreeManager.h */,
+				55002DD25E3E5C9AFBCA4698723DD16C /* WcjTableTreeManager.m */,
+				DD84FD35F85C0744C24613143F872213 /* WcjTableTreeView.h */,
+				1CBDB458A5CC7695F2750634DF14832A /* WcjTableTreeView.m */,
+				92C0DB76D96DC98A6B8DCBD0DA19B4EB /* Pod */,
+				2F656646AA7C700A3C257AA109A840F7 /* Resources */,
+				375BFCC7FF39082F786A588E820D1CDD /* Support Files */,
+			);
+			name = WcjTreeTableLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AF14E6BFED71949AFFB6634978414AD6 /* Pods-WcjTreeTableLib_Tests */ = {
@@ -375,7 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				38ADA0DB21A5AD99DD1CC390343C1326 /* Development Pods */,
+				81393D36C30D8DB5743D9117046F7606 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				BF2BEA7395A14E8AE2D99F7DEF78FEFC /* Products */,
@@ -394,18 +405,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		187D3EC97D8B845B6294E31D5CFA3F89 /* Headers */ = {
+		1765B8BCA0602D37DBD793DD78D834B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1DAB66050EDB38B0313582BDD4B107 /* WcjTableTreeCell.h in Headers */,
-				E58D582A3083D3D831C2B9A3AFF2DA29 /* WcjTableTreeCellProtocol.h in Headers */,
-				3E95B60D8A1A85D17B3F3D512C1B58A5 /* WcjTableTreeConfige.h in Headers */,
-				744281C9C1D4F3F7A7CE78512865703F /* WcjTableTreeItem.h in Headers */,
-				A75A4084AEDDD251C2448F218A3D769C /* WcjTableTreeItemProtocol.h in Headers */,
-				8B8B9CF72A8C49A154ABA18698408B55 /* WcjTableTreeManager.h in Headers */,
-				C0EE0410591F104463B3CD73976D6BCE /* WcjTableTreeView.h in Headers */,
-				2E81515E06C8E27F4C193F5536459E3A /* WcjTreeTableLib-umbrella.h in Headers */,
+				F900B55426B1A54684E231552C11C32E /* WcjTableTreeCell.h in Headers */,
+				35323BD19C0065EFD53CCBFAD642FAE3 /* WcjTableTreeCellProtocol.h in Headers */,
+				DC5E97BA329C7B026D9AC817C41127CC /* WcjTableTreeConfige.h in Headers */,
+				7E401420DC3CC76CB06632C2F320355B /* WcjTableTreeItem.h in Headers */,
+				C302BB7C39236CDFF65E11A52AFDD254 /* WcjTableTreeItemProtocol.h in Headers */,
+				66E28E0228B3E0FC95A8E637965A8082 /* WcjTableTreeManager.h in Headers */,
+				BE353DDFBCE3DE81B3D62A23F5EB9A29 /* WcjTableTreeView.h in Headers */,
+				911DE16F57AAF2097B89DC756488CF53 /* WcjTreeTableLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +456,12 @@
 /* Begin PBXNativeTarget section */
 		5363DAC83E4D2F2423B2D6A5350704D3 /* WcjTreeTableLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3070DAFB64F717FC9FC8E97BC98C88E1 /* Build configuration list for PBXNativeTarget "WcjTreeTableLib" */;
+			buildConfigurationList = 9B2C639A8393856112C53E620A00BCCD /* Build configuration list for PBXNativeTarget "WcjTreeTableLib" */;
 			buildPhases = (
-				187D3EC97D8B845B6294E31D5CFA3F89 /* Headers */,
-				D4B2EF6510496047E8954DA16E082EAF /* Sources */,
-				8ECE6B7CD84F88041A57751F82C56232 /* Frameworks */,
-				D117E79632413A916E2AC2F18AE78371 /* Resources */,
+				1765B8BCA0602D37DBD793DD78D834B8 /* Headers */,
+				2AAE952BEDC0BF1A1E0FB350D6359AFD /* Sources */,
+				3874FA7791CCAA547FEF3B3C8D9B04B0 /* Frameworks */,
+				CC24B95A10461348DA2A9554E2C6BB53 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -491,7 +502,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8843E7E42F3940332673E9C8D5F56652 /* PBXTargetDependency */,
+				1389B617F69A1B01E84232CCB12749BA /* PBXTargetDependency */,
 			);
 			name = "Pods-WcjTreeTableLib_Example";
 			productName = "Pods-WcjTreeTableLib_Example";
@@ -510,8 +521,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EDB40DE67BC6447C445E7463739964FD /* PBXTargetDependency */,
-				86AA81A08BCC1955BD3B573FBD0681CC /* PBXTargetDependency */,
+				460F58CDB78C4055417BF7D49F6F3510 /* PBXTargetDependency */,
+				301BE669CA74897CD186E973E162B30B /* PBXTargetDependency */,
 			);
 			name = "Pods-WcjTreeTableLib_Tests";
 			productName = "Pods-WcjTreeTableLib_Tests";
@@ -570,10 +581,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D117E79632413A916E2AC2F18AE78371 /* Resources */ = {
+		CC24B95A10461348DA2A9554E2C6BB53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C16EA3C71322D416B71482FA6D8337D /* treeTable.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +597,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				57553E98D60EAF6FD17613EC0BA1F47B /* Pods-WcjTreeTableLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AAE952BEDC0BF1A1E0FB350D6359AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDA9A4862E2370CFDC9E161DD1E70D /* WcjTableTreeCell.m in Sources */,
+				A998E4CB2CF09AB243D1F421178A26A1 /* WcjTableTreeConfige.m in Sources */,
+				AC94582C8ADAF1CC815BFE2A20B5AE05 /* WcjTableTreeItem.m in Sources */,
+				3357892F85D3A2FDA102EDDC64980C40 /* WcjTableTreeManager.m in Sources */,
+				8A54DED75A40297B41D3CFAF86C38A2C /* WcjTableTreeView.m in Sources */,
+				7D9783BA3006DF4A228EB077784F47D6 /* WcjTreeTableLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,19 +629,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4B2EF6510496047E8954DA16E082EAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91FB11A7EC9EE5BEB0D89AF80D7FFACD /* WcjTableTreeCell.m in Sources */,
-				03DBC3C7348E42AFE1282C19ABD936B0 /* WcjTableTreeConfige.m in Sources */,
-				679BC93352BC5669586D391CDE566654 /* WcjTableTreeItem.m in Sources */,
-				816D189A80AB12806119AF62790851CE /* WcjTableTreeManager.m in Sources */,
-				0943EA5179B72BB623234B6BF495DB5A /* WcjTableTreeView.m in Sources */,
-				51337FABB96FD38C3FB3041F3700C129 /* WcjTreeTableLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F5F1C10F43695A81A3847B2E727A5242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,30 +640,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		86AA81A08BCC1955BD3B573FBD0681CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WcjTreeTableLib_Example";
-			target = A24D8D7D570296312F189855F6259B77 /* Pods-WcjTreeTableLib_Example */;
-			targetProxy = F5B81FB38397104F3E55AB5041BBF94C /* PBXContainerItemProxy */;
-		};
-		8843E7E42F3940332673E9C8D5F56652 /* PBXTargetDependency */ = {
+		1389B617F69A1B01E84232CCB12749BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WcjTreeTableLib;
 			target = 5363DAC83E4D2F2423B2D6A5350704D3 /* WcjTreeTableLib */;
-			targetProxy = 1B5A14C60284448F29E4B43796D15597 /* PBXContainerItemProxy */;
+			targetProxy = 1FED9F746A90B3231A8C1402C16A7D90 /* PBXContainerItemProxy */;
 		};
-		EDB40DE67BC6447C445E7463739964FD /* PBXTargetDependency */ = {
+		301BE669CA74897CD186E973E162B30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WcjTreeTableLib_Example";
+			target = A24D8D7D570296312F189855F6259B77 /* Pods-WcjTreeTableLib_Example */;
+			targetProxy = 6147EFBCD4ED42E1B38F6D0BACACBE56 /* PBXContainerItemProxy */;
+		};
+		460F58CDB78C4055417BF7D49F6F3510 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = D4CE9984C15EF207D9EFE6DC53B6ABE3 /* PBXContainerItemProxy */;
+			targetProxy = 9725065EED92584722F5C50273FBB2AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C06538EF3BA8E184165B1812CE3A6CB /* Debug */ = {
+		0EEE47A4CB870309EB9BBED860882D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FC78B8ABEE6C44B8CFE39C0BF0DDE46 /* WcjTreeTableLib.debug.xcconfig */;
+			baseConfigurationReference = B3958890289F3FF99761500A7A10B9A1 /* WcjTreeTableLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,10 +687,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -710,38 +723,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		442363E6550A5BF7AEA9E5A48E0C1DD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55E70DC966C8DB1568A886B82C6CC91A /* WcjTreeTableLib.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib.modulemap";
-				PRODUCT_MODULE_NAME = WcjTreeTableLib;
-				PRODUCT_NAME = WcjTreeTableLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -901,6 +882,37 @@
 			};
 			name = Release;
 		};
+		8E2B911BA6912155BA2734A2BAF6673D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C0D122E216E9DA64F60C644A76C850 /* WcjTreeTableLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WcjTreeTableLib/WcjTreeTableLib.modulemap";
+				PRODUCT_MODULE_NAME = WcjTreeTableLib;
+				PRODUCT_NAME = WcjTreeTableLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9F5DDC30505A4BD1FB4D847698DB6A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4F094235FF5D09D36616D8812C5811B /* Pods-WcjTreeTableLib_Tests.debug.xcconfig */;
@@ -1036,15 +1048,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3070DAFB64F717FC9FC8E97BC98C88E1 /* Build configuration list for PBXNativeTarget "WcjTreeTableLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C06538EF3BA8E184165B1812CE3A6CB /* Debug */,
-				442363E6550A5BF7AEA9E5A48E0C1DD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1059,6 +1062,15 @@
 			buildConfigurations = (
 				9F5DDC30505A4BD1FB4D847698DB6A3F /* Debug */,
 				83ECEA7243E15611F9D9AFFED5D6BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2C639A8393856112C53E620A00BCCD /* Build configuration list for PBXNativeTarget "WcjTreeTableLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2B911BA6912155BA2734A2BAF6673D /* Debug */,
+				0EEE47A4CB870309EB9BBED860882D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

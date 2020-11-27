@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WcjTreeTableLib/Classes/**/*'
-  
+  s.resource = 'WcjTreeTableLib/treeTable.bundle'
   # s.resource_bundles = {
-   #  'WcjTreeTableLib' => ['WcjTreeTableLib/Classes/*.bundle']
+   #  'WcjTreeTableLib' => ['WcjTreeTableLib/*.bundle']
    #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
