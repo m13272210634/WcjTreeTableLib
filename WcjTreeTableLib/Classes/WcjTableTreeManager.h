@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 /** 获取所有已经勾选的 item */
 @property (nonatomic, strong, readonly) NSArray<id<WcjTableTreeItemProtocol>> *allCheckItem;
 
-
 - (instancetype)initWithItems:(NSArray<id<WcjTableTreeItemProtocol>> *)items andExpandLevel:(NSInteger)level;
 
 /** 展开/收起 item，返回所改变的 item 的个数 */
@@ -37,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 //上拉
 - (void)refreshLoadMore:(NSMutableArray*)dataArray andExpandLevel:(NSInteger)level;
 
+- (void)initioanData:(NSArray*)items ExpandLevel:(NSInteger)level;
 @end
 
 NS_ASSUME_NONNULL_END

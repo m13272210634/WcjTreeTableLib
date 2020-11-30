@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol WcjTableTreeViewDelegate <NSObject>
 
 @optional
+
+- (NSArray <id<WcjTableTreeItemProtocol>>*)treeViewCellCount:(WcjTableTreeView*)treeView;
 //返回自己的cell
 - (Class)treeViewCell:(WcjTableTreeView*)treeView indexPath:(NSIndexPath*)indexPath;
 /** 如果是单选，点击 cell 会直接调用，如果是多选，通过 prepareCommit 方法会调用 */
@@ -45,12 +47,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak)id<WcjTableTreeViewDelegate> delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame manager:(WcjTableTreeManager*)manager style:(UITableViewStyle)style treeViewDelegate:(id<WcjTableTreeViewDelegate>)delegate;
+
+- (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style treeViewDelegate:(id<WcjTableTreeViewDelegate>)delegate;
+
 //下拉刷新数据
 - (void)refreshPullDown:(NSMutableArray*)dataArray andExpandLevel:(NSInteger)level;
 //上拉加载更多
 - (void)refreshLoadMore:(NSMutableArray*)dataArray andExpandLevel:(NSInteger)level;
 
-- (void)reloadData;
+- (void)wcj_reloadData;
 
 @end
 

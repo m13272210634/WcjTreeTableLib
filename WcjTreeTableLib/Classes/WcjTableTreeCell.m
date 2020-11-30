@@ -123,17 +123,13 @@
 - (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName
 {
     
-     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-     [bundle URLForResource:@"treeTable" withExtension:@"bundle"];
-    
-    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    // 获取屏幕pt和px之间的比例
-    NSInteger scale = [UIScreen mainScreen].scale;
-    NSString *imagefailName = [NSString stringWithFormat:@"%@@%zdx.png",imgName,scale];
-    // 获取图片的路径,其中BMCH5WebView是组件名
-    NSString *imagePath = [currentBundle pathForResource:imagefailName ofType:nil inDirectory:nil];
-    // 获取图片
-    return [UIImage imageWithContentsOfFile:imagePath];
+     static NSBundle *resourceBundle = nil;
+     if (resourceBundle == nil) {
+         resourceBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"treeTable" ofType:@"bundle"]];
+     }
+     
+     UIImage *image = [UIImage imageNamed:imgName inBundle:resourceBundle compatibleWithTraitCollection:nil];
+     return image;
 
 }
 

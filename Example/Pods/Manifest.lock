@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WcjTreeTableLib (0.2.0)
+  - WcjTreeTableLib (0.3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WcjTreeTableLib: 8ea1faeb4b8723355fbcfb7a68d48dc1359a6278
+  WcjTreeTableLib: 8cda4833ef76c6ba186055532bbbc097993ce1d6
 
-PODFILE CHECKSUM: bc6f5e30a4d3653aed6f5f33cbb87b3c0cfc2ce2
+PODFILE CHECKSUM: 01010a27bf2ceda2e1176344d1fb09792c831853
 
 COCOAPODS: 1.9.3

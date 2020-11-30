@@ -61,7 +61,7 @@
 		7A389A7C2570E1B40068787C /* cityResource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityResource.json; sourceTree = "<group>"; };
 		7D26090384D1E2083A19F056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		893EC1415C4E74B1F72F0B45 /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WcjTreeTableLib.podspec; path = ../WcjTreeTableLib.podspec; sourceTree = "<group>"; };
+		893EC1415C4E74B1F72F0B45 /* WcjTreeTableLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WcjTreeTableLib.podspec; path = ../WcjTreeTableLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1AC77C0271CF7FF65191E2B /* Pods-WcjTreeTableLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Example.release.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5E8CE51F2B84C020914CDD4 /* Pods-WcjTreeTableLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjTreeTableLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-WcjTreeTableLib_Tests/Pods-WcjTreeTableLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B6328EE707DD20E25FAD6253 /* Pods_WcjTreeTableLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjTreeTableLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,7 +210,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FD92DE8E213948659CDC8567 /* [CP] Embed Pods Frameworks */,
+				9A2A13B1F43321AB06B8A42A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,6 +344,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9A2A13B1F43321AB06B8A42A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WcjTreeTableLib/WcjTreeTableLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WcjTreeTableLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C60098508BC7D0F289224394 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,24 +378,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Tests/Pods-WcjTreeTableLib_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD92DE8E213948659CDC8567 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WcjTreeTableLib/WcjTreeTableLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WcjTreeTableLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WcjTreeTableLib_Example/Pods-WcjTreeTableLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -20,6 +20,14 @@
 @end
 @implementation WcjTableTreeManager
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
 - (instancetype)initWithItems:(NSArray<id<WcjTableTreeItemProtocol>> *)items andExpandLevel:(NSInteger)level{
     self = [super init];
     if (self) {

@@ -10,6 +10,7 @@
 #import "WcjTableTreeView.h"
 #import "WcjTableTreeItem.h"
 @interface WCJViewController ()<WcjTableTreeViewDelegate>
+@property(nonatomic, strong)NSMutableArray*array;
 
 @end
 
@@ -17,13 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    WcjTableTreeManager * manager = [self getManagerOfCity];
-    WcjTableTreeView * treeView = [[WcjTableTreeView alloc]initWithFrame:self.view.bounds manager:manager style:(UITableViewStylePlain) treeViewDelegate:self];
+    WcjTableTreeView * treeView = [[WcjTableTreeView alloc]initWithFrame:self.view.bounds style:(UITableViewStylePlain) treeViewDelegate:self];
     [self.view addSubview:treeView];
+    self.array = [self getManagerOfCity];
+    [treeView wcj_reloadData];
+    
     // Do any additional setup after loading the view.
 }
 
-- (WcjTableTreeManager *)getManagerOfCity {
+- (NSArray<id<WcjTableTreeItemProtocol>> *)treeViewCellCount:(WcjTableTreeView *)treeView{
+    return self.array;
+}
+
+- (NSArray<id<WcjTableTreeItemProtocol>> *)getManagerOfCity {
     
     // 获取数据并创建树形结构
     NSData *JSONData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"cityResource" ofType:@"json"]];
@@ -76,9 +83,7 @@
     }];
     
     // ExpandLevel 为 0 全部折叠，为 1 展开一级，以此类推，为 NSIntegerMax 全部展开
-    WcjTableTreeManager *manager = [[WcjTableTreeManager alloc] initWithItems:items andExpandLevel:0];
-    
-    return manager;
+    return items;
 }
 
 @end

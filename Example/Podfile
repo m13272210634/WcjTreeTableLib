@@ -1,10 +1,12 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/m13272210634/Specs.git'
 
 platform :ios, '8.0'
 
 target 'WcjTreeTableLib_Example' do
   pod 'WcjTreeTableLib', :path => '../'
-
+#
   target 'WcjTreeTableLib_Tests' do
     inherit! :search_paths
 

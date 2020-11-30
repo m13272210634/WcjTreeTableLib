@@ -25,6 +25,23 @@
     return self;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style treeViewDelegate:(id<WcjTableTreeViewDelegate>)delegate{
+    self = [super initWithFrame:frame];
+    if (self) {
+        _delegate = delegate;
+        _manager = [[WcjTableTreeManager alloc]init];
+        [self buildView:style];
+    }return self;
+}
+
+- (void)wcj_reloadData{
+    if (self.delegate && [self.delegate respondsToSelector:@selector(treeViewCellCount:)]) {
+        NSArray * array = [self.delegate treeViewCellCount:self];
+        [self.manager initioanData:array ExpandLevel:0];
+        [self.wcj_tableView reloadData];
+    }
+}
+
 //外部传近来已选择的
 - (void)setCheckItemIds:(NSArray<NSString *> *)checkItemIds{
     // 遍历外部传来的所选择的 itemId
@@ -54,10 +71,6 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.wcj_tableView reloadData];
     });
-}
-
-- (void)reloadData{
-    [self.wcj_tableView reloadData];
 }
 
 - (void)buildView:(UITableViewStyle)style{
